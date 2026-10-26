@@ -40,6 +40,6 @@ export default  {
 	info: {
 		// key-values added here will be added to the compInfo section of searchData
 	},
-	github: "",
-	demovideo: ""
+	github: "https://github.com/akash-singh-baghel/hackathon-Project-",
+	demovideo: "https://youtu.be/nCG66xxVgZA"
 }
