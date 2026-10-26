@@ -1,6 +1,6 @@
 [
   {
-    "component": "package-info-explorer",
+    "component": "@akash1971/package-info-explorer",
     "query": "npm express",
     "entities": [
       {
@@ -18,7 +18,7 @@
     "suggestedPlace": "sidebar"
   },
   {
-    "component": "package-info-explorer",
+    "component": "@akash1971/package-info-explorer",
     "query": "compare react and vue",
     "entities": [
       {
@@ -44,7 +44,7 @@
     "suggestedPlace": "mainline"
   },
   {
-    "component": "package-info-explorer",
+    "component": "@akash1971/package-info-explorer",
     "query": "compare packages express, fastify, koa",
     "entities": [
       {
@@ -78,7 +78,7 @@
     "suggestedPlace": "mainline"
   },
   {
-    "component": "package-info-explorer",
+    "component": "@akash1971/package-info-explorer",
     "query": "npm alternatives to moment",
     "entities": [
       {
@@ -96,7 +96,7 @@
     "suggestedPlace": "sidebar"
   },
   {
-    "component": "package-info-explorer",
+    "component": "@akash1971/package-info-explorer",
     "query": "best npm package for date formatting",
     "entities": [],
     "keyword": [{ "word": "date formatting", "description": "" }],
@@ -105,7 +105,7 @@
     "suggestedPlace": "mainline"
   },
   {
-    "component": "package-info-explorer",
+    "component": "@akash1971/package-info-explorer",
     "query": "npm request",
     "entities": [
       {
@@ -123,7 +123,7 @@
     "suggestedPlace": "sidebar"
   },
   {
-    "component": "package-info-explorer",
+    "component": "@akash1971/package-info-explorer",
     "query": "express 4 vs 5",
     "entities": [
       {
