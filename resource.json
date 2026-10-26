@@ -1,0 +1,59 @@
+{
+  "title": "npm Package Info",
+  "description": "Structured information about npm packages: details, head-to-head comparisons, alternatives, and use-case recommendations.",
+  "componentScope": {
+    "supportedIntents": [
+      {
+        "intent": "package-details",
+        "description": "A query naming exactly one npm package, asking what it is or its latest version.",
+        "example": ["npm express", "latest version of react", "npm request"]
+      },
+      {
+        "intent": "package-compare",
+        "description": "A query naming two or more npm packages to compare head-to-head.",
+        "example": ["compare react and vue", "compare express, fastify, koa"]
+      },
+      {
+        "intent": "package-alternatives",
+        "description": "A query asking for alternatives or similar packages to one named package.",
+        "example": ["npm alternatives to moment", "packages like lodash"]
+      },
+      {
+        "intent": "use-case-recommendation",
+        "description": "A query describing a need without naming any specific package; the component recommends suitable packages.",
+        "example": ["best npm package for date formatting", "library for parsing csv"]
+      }
+    ]
+  },
+  "schema": {
+    "type": "object",
+    "description": "The npm package query.",
+    "properties": {
+      "type": {
+        "type": "string",
+        "description": "One of: package-details, package-compare, package-alternatives, use-case-recommendation."
+      },
+      "filters": {
+        "type": "object",
+        "description": "Package names resolved from the query, if any.",
+        "properties": {
+          "packageNames": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "npm package names found in the query (sourceID values)."
+          }
+        },
+        "additionalProperties": true
+      },
+      "features": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Free-text need, used only when no package is named (e.g. 'date formatting')."
+      },
+      "entities": {
+        "collections": ["NPM_PACKAGES"]
+      }
+    },
+    "required": ["type", "filters", "features", "entities"]
+  }
+}

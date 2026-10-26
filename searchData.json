@@ -1,0 +1,143 @@
+[
+  {
+    "component": "package-info-explorer",
+    "query": "npm express",
+    "entities": [
+      {
+        "word": "express",
+        "sourceID": "express",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/expressjs/express" },
+        "relevanceScore": 99.9
+      }
+    ],
+    "keyword": [],
+    "genericQuery": "npm HD_PACKAGES__NPM_PACKAGES",
+    "unambiguous": true,
+    "suggestedPlace": "sidebar"
+  },
+  {
+    "component": "package-info-explorer",
+    "query": "compare react and vue",
+    "entities": [
+      {
+        "word": "react",
+        "sourceID": "react",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/facebook/react" },
+        "relevanceScore": 99.85
+      },
+      {
+        "word": "vue",
+        "sourceID": "vue",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/vuejs/core" },
+        "relevanceScore": 97.35
+      }
+    ],
+    "keyword": [],
+    "genericQuery": "compare HD_PACKAGES__NPM_PACKAGES and HD_PACKAGES__NPM_PACKAGES",
+    "unambiguous": true,
+    "suggestedPlace": "mainline"
+  },
+  {
+    "component": "package-info-explorer",
+    "query": "compare packages express, fastify, koa",
+    "entities": [
+      {
+        "word": "express",
+        "sourceID": "express",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/expressjs/express" },
+        "relevanceScore": 99.9
+      },
+      {
+        "word": "fastify",
+        "sourceID": "fastify",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/fastify/fastify" },
+        "relevanceScore": 95.2
+      },
+      {
+        "word": "koa",
+        "sourceID": "koa",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/koajs/koa" },
+        "relevanceScore": 92.1
+      }
+    ],
+    "keyword": [],
+    "genericQuery": "compare packages HD_PACKAGES__NPM_PACKAGES, HD_PACKAGES__NPM_PACKAGES, HD_PACKAGES__NPM_PACKAGES",
+    "unambiguous": true,
+    "suggestedPlace": "mainline"
+  },
+  {
+    "component": "package-info-explorer",
+    "query": "npm alternatives to moment",
+    "entities": [
+      {
+        "word": "moment",
+        "sourceID": "moment",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/moment/moment" },
+        "relevanceScore": 98.4
+      }
+    ],
+    "keyword": [],
+    "genericQuery": "npm alternatives to HD_PACKAGES__NPM_PACKAGES",
+    "unambiguous": true,
+    "suggestedPlace": "sidebar"
+  },
+  {
+    "component": "package-info-explorer",
+    "query": "best npm package for date formatting",
+    "entities": [],
+    "keyword": [{ "word": "date formatting", "description": "" }],
+    "genericQuery": "best npm package for date formatting",
+    "unambiguous": false,
+    "suggestedPlace": "mainline"
+  },
+  {
+    "component": "package-info-explorer",
+    "query": "npm request",
+    "entities": [
+      {
+        "word": "request",
+        "sourceID": "request",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/request/request" },
+        "relevanceScore": 99.1
+      }
+    ],
+    "keyword": [],
+    "genericQuery": "npm HD_PACKAGES__NPM_PACKAGES",
+    "unambiguous": true,
+    "suggestedPlace": "sidebar"
+  },
+  {
+    "component": "package-info-explorer",
+    "query": "express 4 vs 5",
+    "entities": [
+      {
+        "word": "express",
+        "sourceID": "express",
+        "collectionName": "NPM_PACKAGES",
+        "collectionType": "HD_PACKAGES",
+        "entityInfo": { "repository_url": "https://github.com/expressjs/express" },
+        "relevanceScore": 99.9
+      }
+    ],
+    "keyword": [],
+    "genericQuery": "HD_PACKAGES__NPM_PACKAGES 4 vs 5",
+    "unambiguous": true,
+    "suggestedPlace": "mainline"
+  }
+]
