@@ -5,6 +5,42 @@ questions — "npm express", "compare react and vue", "alternatives to
 moment", "best npm package for date formatting" — with a single glanceable
 answer instead of a trip to npmjs.com, bundlephobia, and a search engine.
 
+## Running it locally
+
+**Prerequisites:** Node.js `^20.19.0` or `>=22.12.0` (the Vite React plugin
+requires one of those ranges — a plain Node 20.9 or similar will install but
+print an `EBADENGINE` warning), and npm. No API keys, no `.env` file, no
+backend to start — this is a plain frontend project.
+
+```bash
+git clone https://github.com/akash-singh-baghel/hackathon-Project-.git
+cd hackathon-Project-
+npm install
+npm run start
+```
+
+`npm run start` launches Vite's dev server (default `http://localhost:5173`,
+or the next free port if that one's taken — check the terminal output for the
+exact URL) and opens the hyperDart sandbox: a mock search-results page with
+this component rendered in it, simulating how the real platform would embed
+it. The sandbox cycles through the example scenarios defined in
+`searchData.json` (`npm express`, `compare react and vue`, `npm alternatives
+to moment`, etc.) — edit that file and reload to try a different query
+without touching any code, or use the sandbox's own search bar at the top to
+type a live query directly.
+
+To produce the production bundle that actually gets published to the
+hyperDart registry:
+
+```bash
+npm run build
+```
+
+This outputs to `dist/` (already git-ignored). Running `npm publish` checks
+that output (via the `prepublishOnly` script, `scripts/validate-publish.js`)
+before actually publishing to the hyperDart registry — see `AGENTS.md` for
+the full publish workflow.
+
 ## The idea
 
 Developers ask four different kinds of questions about packages, and this
